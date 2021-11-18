@@ -20,7 +20,7 @@
 ![](img/2021-11-18-10-44-01.png)
 ![](img/2021-11-18-10-44-15.png)
 
-## Some code
+# Some code
 import requirements
 ```python
 import numpy as np
@@ -28,4 +28,10 @@ import pandas as pd
 import requests
 import xlsxwriter
 import math
+```
+
+# [Download stock list](https://datahub.io/core/s-and-p-500-companies)
+
+```python
+stocks = pd.read.csv('./data/sp500stocks.csv)')
 ```
